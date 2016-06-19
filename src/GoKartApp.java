@@ -5,6 +5,7 @@ public class GoKartApp {
 		if (kart.isBatteryEmpty()) {
 			System.out.println("The battery is empty");
 		}
-		kart.drive(2);
+		kart.drive();
+		kart.charge();
 	}
 }

@@ -5,7 +5,7 @@ public class GoKart {
   
   public GoKart(String color) {
     mColor = color;
-    mBarsCount = 0;
+    mBarsCount = 1;
   }
   
   public String getColor() {
@@ -25,6 +25,7 @@ public class GoKart {
     while (!isFullyCharged()) {
       mBarsCount++;
     }
+    System.out.println("Battery is fully charged.");
   }
   
   public boolean isBatteryEmpty() {
